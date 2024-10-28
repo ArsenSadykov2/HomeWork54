@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+.board {
+  border: 2px solid black;
+  padding: 15px 25px 15px 25px;
+  width: 420px;
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  background: skyblue;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.block {
+  width: 60px;
+  height: 55px;
+  background: bisque;
+  padding: 2px;
+  margin: 2px;
+}
+
+.clicked {
+  width: 55px;
+  height: 55px;
+  padding: 2px;
+  background: skyblue;
+}
+
+.win {
+  width: 55px;
+  height: 55px;
+  padding: 2px;
+  background: url("assets/ninja.png") center no-repeat;
+  background-size: 50%;
+}
